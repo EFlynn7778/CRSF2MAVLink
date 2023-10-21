@@ -5,6 +5,11 @@ CRSF (Crossfire) Telemetry to MAVLink Telemetry converter.
 
 Implemented for use with Automatic Antenna Trackers, or a bridge between CRSF and any other MAVLink compatible device. 
 
-CRSF Sensors are limited compared to MAVLink, so only those that can be translated are sent over MAVLink
+CRSF Sensors are limited compared to MAVLink, so only those that can be translated are sent over MAVLink. The remainder can be set/sent as statc values.
+
+MAVLink messages sent are, Heartbeat, Status, GPS, HUD, ATTITUDE
 
 This was implemented on a Teensy 4.0 due to plentiful hardware serial ports, but is Arduino compatible and should compile for just about anything with a few chages.
+
+
+Based on code by David Wyss(mavlink) and Rob Thomson(CRSF)
