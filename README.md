@@ -1,9 +1,8 @@
 # CRSF2MAVLink
-CRSF Telemetry to MAVLink Telemetery Converter
 
 CRSF (Crossfire/ELRS) Telemetry to MAVLink Telemetry converter.
 
-Implemented for use with Automatic Antenna Trackers, or a bridge between CRSF and any other MAVLink compatible device. 
+Implemented for use with Automatic Antenna Trackers, or a bridge between CRSF and any other MAVLink compatible device such as MissionPlanner running on a PC etc. 
 
 CRSF Sensors are limited compared to MAVLink, so only those that can be translated are sent over MAVLink. The remainder can be set/sent as statc values.
 
